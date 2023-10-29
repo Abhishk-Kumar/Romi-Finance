@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romi-Finance</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+    <div class="nav-bar">
+        <nav>
+            <h1><img src="New Logo-1.png">Romi Finance</h1>
+            
+            <a href="">Home</a>
+            <a href="dasboard.html">Dashboard</a>
+            <a href="">NFT</a>
+            <a href="earn.html">Earn</a>
+            <a href="">Buy</a>
+            <a href="">Referrals</a>
+            <a href="">Ecosystem</a>
+            <a href="about.html">About</a> 
+            <button type="button" id="trade">Trade</button>
+            <button type="button" id="connectWalletBtn" style="background:cyan;">Connect Wallet</button>
+            <div id="walletPopup" class="popup">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup()">&times;</span>
+                    <h2>Select Wallet</h2>
+                    <label><input type="radio" name="walletOption" value="MetaMask"> MetaMask</label><br>
+                    <label><input type="radio" name="walletOption" value="Coinbase Wallet"> Coinbase Wallet</label><br>
+                    <label><input type="radio" name="walletOption" value="WalletConnect">WalletConnect</label><br>
+                    <label><input type="radio" name="walletOption" value="Other"> Other</label><br>
+                    <button onclick="selectWallet()">Submit</button>
+                </div>
+            </div>
+
+
+
+            <button type="button" id="ethereum"><img src="ethereum.png"> |:</button>
+        </nav>
+
+    </div>
+    <div class="body">
+        <h2>Decentralized<br>Perpetual Exchange</h2>
+        <p>Trade BTC,ETH,AVAX and other top <br>cryptocurrencies with upto 30x leverage <br>directly from your wallet</p>
+        <button type="button" id="launch">Launch Exchange</button>
+        <div class="card-container">
+        <div class="total"><img src="newarrow.jpg">Total Trading Volume<br>$0</div>
+        <div class="total"> Interest<br>$0</div>
+        <div class="total">Total Users<br>0</div>
+        </div>
+  <br>      
+<hr>
+
+    </div>
+    <div class="info">
+        <div class="text"><h4>Reduce Liquidation Risks</h4><p>An aggregate of high-quality price<br> feeds determine when liquidations<br> occur. This keeps positions safe <br>from temporary wicks.</p></div>
+        <div class="text"><h4>Save on Costs</h4><p>Enter and exit positions with<br> minimal spread and zero price<br> impact. Get the optimal price <br>without incurring additional costs.</p></div>
+        <div class="text"><h4>Simple Swaps</h4><p>Open positions through a simple<br> swap interface. Conveniently swap <br> from any supported asset into the<br> position of your choice.</p></div>
+    </div>
+    <h3 id="heading">Two Tokens create<br>our ecosystem</h3>
+    <div class="cords">
+
+<div class="cord"><span id="romi">$ROMI</span> <br><br><p> $Romi is the utility and governance token. Accrues 30% of the<br>platform's generated fees.</p><br> <span>Ethereum APR:0.00% </span>
+    <br> <button type="button" id="buy">BUY</button>
+    <button type="button" id="read">Read more</button>
+</div>
+<div class="cord"><span id="rlp">$RLP </span><br> <br> <p></p>$ZLP is the liquidity provider token. Accrues 70% of the <br> platform's generated fees.</p><br><span>Ethereum APR: 1,655,928,224.10%</span>
+    <br>  <button type="button" id="buy">BUY</button>
+    <button type="button" id="read">Read more</button>
+</div>
+</div>
+</div>
+<hr>
+<footer>
+    <div class="foot" style="text-align: center;">
+      <h1 id="brand" style="margin-bottom: 10px;">Romi Finance</h1>
+      <img src="insta.jpg" style="width: 30px; margin: 5px 10px;">
+      <img src="fb.icon.png" style="width: 30px; margin: 5px 10px;">
+      <img src="pinterst icon.png" style="width: 30px; margin: 5px 10px;">
+      <img src="twitter.icon.png" style="width: 30px; margin: 5px 10px;"> <br>
+      <span id="terms" style="margin: 10px 20px;">Terms and Conditions</span>
+      <span id="referrals" style="margin: 10px 20px;">Referrals</span>
+      <span style="margin: 10px;">Medical-Kits</span>
+    </div>
+  </footer>
+  
+
+
+
+
+
+
+<script src="home.js"></script>
+
+
+
+
+
+
+</body>
+</html>

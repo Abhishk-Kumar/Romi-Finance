@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.952);
+    color: antiquewhite;
+}
+
+nav{
+    margin-top: 15px;
+    cursor:pointer;
+    position: relative;
+}
+nav h1 img{
+    width: 40px;
+    border: 2px solid greey;
+    border-radius: 5px;
+    
+    
+}
+nav h1{
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-top: 6px;
+    position: relative;
+    left: 10px;
+    top: 4px;
+
+}
+#trade{
+    background: rgb(16, 202, 16);
+    color: whitesmoke;
+margin-right: 18px;}
+button{
+    padding: 10px;
+    border: none;
+    border-radius:3px;
+    font-size: 15px;
+    align-items: center;
+}
+#ethereum{
+    margin-left: 6px;
+    border-radius: 5px;
+}
+#ethereum img{
+width: 15px;
+border-radius: 2px;
+margin-left: 5px;
+}
+
+
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    
+    
+}
+nav a{
+    align-items: center;
+   margin:  8px 20px;
+   color: white;
+font-size: 16px;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.basic{
+    margin: 0 0;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.big-container{
+    width: 93%;
+    height: 250px;
+    background-color: black;
+    padding: 20px;
+    margin: 0 0;
+    margin-left: 45px;
+    margin-bottom: 15px;
+margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    float: left;
+}   
+.basic p{
+    margin-top: 5px;
+}
+.container{
+    width: 45%;
+    height: 200px;
+    background-color: black;
+    padding: 20px;
+    margin: 0 0;
+    margin-left: 45px;
+    margin-bottom: 15px;
+margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    float: left;
+}
+.row span{
+    float: right;
+}
+.row {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
